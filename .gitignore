@@ -1,52 +1,11 @@
-# ============================================================
-# CropCare AI — Git Ignore Rules
-# ============================================================
-
-# Environment variables & Secret API keys (CRITICAL - NEVER COMMIT)
-.env
-.env.*
-*.env
-.env.local
-.env.production
-.env.development
-
-# Streamlit secrets
-.streamlit/secrets.toml
-secrets.toml
-
-# Python cache & compiled bytecode
 __pycache__/
-*/__pycache__/
-*.py[cod]
-*$py.class
 *.pyc
 *.pyo
 *.pyd
-
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-env.bak/
-venv.bak/
-
-# Operating System files
+.ipynb_checkpoints/
 .DS_Store
-.DS_Store?
-._*
-Thumbs.db
-ehthumbs.db
-
-# IDE & Editor configurations
-.idea/
 .vscode/
-*.swp
-*.swo
-*~
-
-# Temporary execution artifacts & logs
+.idea/
 *.log
-.pytest_cache/
-.coverage
-htmlcov/
+.env
+.streamlit/secrets.toml
